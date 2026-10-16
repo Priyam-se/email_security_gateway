@@ -1,0 +1,19 @@
+Delivered-To: victim@example.com
+Received: by mail.example.com with SMTP id xyz123;
+        Fri, 16 Oct 2026 10:14:02 +0000
+Authentication-Results: mail.example.com;
+       spf=pass (mail.example.com: domain of notifications@github.com designates 192.30.252.206 as permitted sender) smtp.mailfrom=notifications@github.com;
+       dkim=pass header.i=@github.com
+From: GitHub <notifications@github.com>
+To: victim@example.com
+Subject: [GitHub] Security advisory alert
+Date: Fri, 16 Oct 2026 10:14:00 +0000
+Content-Type: text/plain; charset="utf-8"
+
+Hi Developer,
+
+We identified a newly published security advisory that may affect your repository.
+Please review your project settings and dependency tree at https://github.com/settings/security.
+
+Regards,
+GitHub Security Team
